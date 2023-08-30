@@ -1,0 +1,43 @@
+
+.wrapper{ display:flex; flex-direction: row; }
+h1 { text-align: center; font-size: 24pt; font-family: cursive; color: rgb(155, 91, 102);}
+
+#logo {display: flex; margin: auto ;
+     }
+
+#menu { display:flex; margin: 15px;
+     border: 2px solid black;  flex-direction: column; text-align: center;
+background-color: antiquewhite; font-family: cursive}
+
+.member { border-radius: 10px; background-color: palevioletred; margin: 2px;
+ padding: 1px 50px; width: 30%; color: black; text-align: center;}
+
+ #blackpink {display:flex;  justify-content: center; opacity: 0.9;}
+ figcaption { text-align: center;}
+
+ .container {
+      margin: 20px auto; width: 1200px; height: 1200px; background-color: whitesmoke; display: grid; grid-template-columns: auto; grid-row-gap: 20px;
+  }
+
+#jisoo {display: flex; background-color: pink;border-radius: 10px;
+     justify-content: space-between;  padding-left: 10px;}
+#jennie {display: flex; background-color: black;border-radius: 10px;justify-content: space-between; color: aliceblue;}
+#rose { display: flex;background-color: pink;border-radius: 10px;justify-content:space-between ;}
+#lisa {display: flex;background-color: black;border-radius: 10px;justify-content:space-between ;color: aliceblue;}
+
+fieldset {text-align: center;}
+legend { font-size: 24pt;}
+text { color: red;}
+#fname:focus-visible{ background-color: rgb(218, 218, 114);}
+#email:focus-visible {background-color:rgb(218, 218, 114);}
+#comments:focus-visible{background-color:rgb(218, 218, 114);}
+#submit:hover, #submit:focus { background-color: palevioletred; text-decoration: underline;}
+
+@media screen and (max-width:450px){
+     #blackpink{justify-content: center; width: fit-content; height: fit-content;}
+     #jisoo {flex-direction: column;}
+     #jennie {flex-direction: column;}
+     #rose{flex-direction: column;}
+     #lisa{flex-direction: column;}
+}
+     
